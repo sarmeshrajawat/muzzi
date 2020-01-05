@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yechno_hub">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".education_hub">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivlecturenotes4"
+            android:layout_width="136dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="232dp"
+            android:layout_marginLeft="232dp"
+            android:layout_marginTop="210dp"
+            android:src="@drawable/placement_cell"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tveducation_hub"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivlecturenotes3"
+            android:layout_width="143dp"
+            android:layout_height="147dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/flying_mustang"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ivlecturenotes4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tveducation_hub"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivlecturenotes2"
+            android:layout_width="138dp"
+            android:layout_height="146dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/robotics"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tveducation_hub" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="406dp"
+            android:layout_height="168dp"
+            android:background="#FFEB3B"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivphoto"
+            android:layout_width="304dp"
+            android:layout_height="179dp"
+            android:layout_marginTop="70dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout3"
+            app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="196dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:hint="Name"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivphoto" />
+
+        <TextView
+            android:id="@+id/tveducation_hub"
+            android:layout_width="264dp"
+            android:layout_height="42dp"
+            android:gravity="center"
+            android:text="Techno Hub"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvname" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivlecturenotes"
+            android:layout_width="151dp"
+            android:layout_height="133dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/techknights"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="6dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tveducation_hub" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
